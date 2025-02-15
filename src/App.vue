@@ -5,8 +5,10 @@
 
     <main class="container mx-auto px-4 sm:px-8 lg:px-16 flex-grow max-w-[1920px] relative">
       <div class="py-8 sm:py-12 lg:py-16">
-        <h1 class="text-[#0EDDD3] text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-light mb-6 sm:mb-8">
-          Unyt<br />Accounting
+        <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal mb-6 sm:mb-8 tracking-tight">
+          <span class="metallic-text">Unyt</span>
+          <br />
+          <span class="metallic-text">Accounting</span>
         </h1>
 
         <p
@@ -15,9 +17,9 @@
         </p>
 
         <div class="mt-12 sm:mt-16 lg:mt-20">
-          <p class="text-white text-lg sm:text-xl">
+          <p class="text-white text-xl sm:text-2xl lg:text-3xl font-normal">
             Interested in testing?
-            <a href="mailto:info@unyt.co" class="text-white hover:text-[#0EDDD3] transition-colors duration-300"
+            <a href="mailto:info@unyt.co" class="metallic-text hover:opacity-80 transition-opacity duration-300 ml-2"
               >info@unyt.co</a
             >
           </p>
@@ -29,9 +31,11 @@
           href="https://github.com/unytco/hfvz-releases/releases"
           target="_blank"
           rel="noopener noreferrer"
-          class="text-[#0EDDD3] text-lg sm:text-xl transition-colors duration-300 group">
-          Releases
-          <span class="inline-block ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">↗</span>
+          class="text-lg sm:text-xl transition-colors duration-300 group">
+          <span class="metallic-text">Releases</span>
+          <span class="inline-block ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300 metallic-text"
+            >↗</span
+          >
         </a>
       </div>
     </main>
@@ -52,7 +56,15 @@
 </template>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+
+.metallic-text {
+  background: linear-gradient(180deg, #0eddd3 0%, #7ff4ed 30%, #0eddd3 50%, #06a59d 70%, #0eddd3 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 30px rgba(14, 221, 211, 0.3);
+}
 
 body {
   margin: 0;
