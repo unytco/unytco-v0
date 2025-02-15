@@ -47,10 +47,6 @@
   </div>
 </template>
 
-<script setup>
-// Removed HolochainLogo import since we're using the SVG file directly
-</script>
-
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap");
 
@@ -73,9 +69,5 @@ body {
   html {
     font-size: 18px;
   }
-}
-
-* {
-  transition: font-size 0.3s ease;
 }
 </style>

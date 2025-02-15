@@ -1,4 +1,11 @@
 {
+  "name": "unyt.co",
+  "version": "1.0.0",
+  "description": "Unyt Accounting",
+  "author": "zo-el<joelulahanna@gmail.com>",
+  "license": "GPL-3.0-only",
+  "keywords": [],
+  "main": "postcss.config.js",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,9 +20,6 @@
     "autoprefixer": "^10.4.0",
     "sharp": "^0.33.0"
   },
-  "name": "unyt.co",
-  "version": "1.0.0",
-  "main": "postcss.config.js",
   "dependencies": {
     "vue": "^3.3.0",
     "@fontsource/arimo": "^5.0.0",
@@ -28,9 +32,5 @@
     "is-arrayish": "^0.3.2",
     "semver": "^7.7.1",
     "simple-swizzle": "^0.2.2"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }
