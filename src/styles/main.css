@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  background-color: #053185;
+  background-color: theme("colors.unyt-blue");
   color: white;
 }
 

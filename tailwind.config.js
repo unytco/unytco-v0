@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         "unyt-green": "#0EDDD3",
-        "backsplash-blue": "#053185",
+        "unyt-blue": "#053185",
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],

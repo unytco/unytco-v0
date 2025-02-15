@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-screen bg-[#053185] flex flex-col relative overflow-hidden">
+  <div class="min-h-screen bg-unyt-blue flex flex-col relative overflow-hidden">
     <!-- Gradient overlay at bottom -->
-    <div class="absolute bottom-0 left-0 right-0 h-64 bg-gradient-to-t from-[#0EDDD3]/5 to-transparent"></div>
+    <div class="absolute bottom-0 left-0 right-0 h-64 bg-gradient-to-t from-unyt-green/5 to-transparent"></div>
 
     <main class="container mx-auto px-4 sm:px-8 lg:px-16 flex-grow max-w-[1920px] relative flex flex-col">
       <div class="flex-grow flex flex-col justify-center py-4 sm:py-12 lg:py-16">
@@ -59,14 +59,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
 
 .metallic-text {
-  color: #0eddd3;
-  /* text-shadow: 0 0 30px rgba(14, 221, 211, 0.3); */
+  color: theme("colors.unyt-green");
 }
 
 body {
   margin: 0;
-  font-family: "Inter", sans-serif;
-  background: #053185;
+  font-family: theme("fontFamily.sans");
+  background: theme("colors.unyt-blue");
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
