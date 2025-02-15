@@ -59,11 +59,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
 
 .metallic-text {
-  background: linear-gradient(180deg, #0eddd3 0%, #7ff4ed 30%, #0eddd3 50%, #06a59d 70%, #0eddd3 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 30px rgba(14, 221, 211, 0.3);
+  color: #0eddd3;
+  /* text-shadow: 0 0 30px rgba(14, 221, 211, 0.3); */
 }
 
 body {
