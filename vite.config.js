@@ -9,5 +9,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/", // Changed from "/holochain-website/"
+  base: "/unyt.co/", // Updated for your repository name
 });
