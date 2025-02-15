@@ -1,6 +1,9 @@
 <template>
-  <div class="min-h-screen bg-[#053185] flex flex-col">
-    <main class="container mx-auto px-4 sm:px-8 lg:px-16 flex-grow max-w-[1920px]">
+  <div class="min-h-screen bg-[#053185] flex flex-col relative overflow-hidden">
+    <!-- Gradient overlay at bottom -->
+    <div class="absolute bottom-0 left-0 right-0 h-64 bg-gradient-to-t from-[#0EDDD3]/5 to-transparent"></div>
+
+    <main class="container mx-auto px-4 sm:px-8 lg:px-16 flex-grow max-w-[1920px] relative">
       <div class="py-8 sm:py-12 lg:py-16">
         <h1 class="text-[#0EDDD3] text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-light mb-6 sm:mb-8">
           Unyt<br />Accounting
@@ -26,13 +29,14 @@
           href="https://github.com/unytco/hfvz-releases/releases"
           target="_blank"
           rel="noopener noreferrer"
-          class="text-[#0EDDD3] text-lg sm:text-xl hover:underline transition-colors duration-300"
-          >Releases</a
-        >
+          class="text-[#0EDDD3] text-lg sm:text-xl transition-colors duration-300 group">
+          Releases
+          <span class="inline-block ml-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">↗</span>
+        </a>
       </div>
     </main>
 
-    <footer class="mt-auto w-full">
+    <footer class="mt-auto w-full relative">
       <div class="container mx-auto px-4 sm:px-8 lg:px-16 py-6 sm:py-8 lg:py-12 max-w-[1920px] relative">
         <img
           src="@/assets/PBH_logo_white.svg"
