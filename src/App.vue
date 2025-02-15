@@ -67,7 +67,7 @@ body {
 
 @media (max-width: 640px) {
   html {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
