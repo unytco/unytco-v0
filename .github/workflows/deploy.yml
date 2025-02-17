@@ -35,6 +35,8 @@ jobs:
 
       - name: Build
         run: yarn build
+        env:
+          GITHUB_REF_NAME: ${{ github.ref_name }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
