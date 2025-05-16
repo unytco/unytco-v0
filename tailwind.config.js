@@ -12,7 +12,7 @@ export default {
         "unyt-bg": "#fff",
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
+        sans: ["Quicksand"],
       },
     },
   },
