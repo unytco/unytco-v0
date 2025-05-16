@@ -22,20 +22,20 @@
       <h1 class="text-3xl sm:text-4xl md:text-5xl font-normal mb-8 sm:mb-12">
         Make DePIN Payments Easy</h1>
       <ul class="space-y-6 sm:space-y-8">
-        <li class="flex items-start">
-          <span class="w-4 h-4 sm:w-5 sm:h-5 bg-unyt-accent rounded-sm mt-1 mr-3 sm:mr-5"></span>
+        <li class="flex items-center">
+          <span class="w-4 h-4 sm:w-5 sm:h-5 bg-unyt-accent rounded-sm mr-3 sm:mr-5"></span>
           <span>
             <b>Affordable</b>: Low fees, handle more customers, quick payments
           </span>
         </li>
-        <li class="flex items-start">
-          <span class="w-4 h-4 sm:w-5 sm:h-5 bg-unyt-accent rounded-sm mt-1 mr-3 sm:mr-5"></span>
+        <li class="flex items-center">
+          <span class="w-4 h-4 sm:w-5 sm:h-5 bg-unyt-accent rounded-sm mr-3 sm:mr-5"></span>
           <span>
             <b>Secure</b>: Payment records can't be changed because every action is locked and verified
           </span>
         </li>
-        <li class="flex items-start">
-          <span class="w-4 h-4 sm:w-5 sm:h-5 bg-unyt-accent rounded-sm mt-1 mr-3 sm:mr-5"></span>
+        <li class="flex items-center">
+          <span class="w-4 h-4 sm:w-5 sm:h-5 bg-unyt-accent rounded-sm mr-3 sm:mr-5"></span>
           <span>
             <b>Independent</b>: Works directly between you and customers, but can connect to traditional systems
           </span>
@@ -48,7 +48,7 @@
       <div
         class="container mx-auto pl-4 sm:pl-8 md:pl-16 lg:pl-24 pr-4 sm:pr-8 lg:pr-16 py-4 sm:py-8 lg:py-12 max-w-[1920px] flex flex-col items-center sm:block">
         <img src="@/assets/PBH_logo_white.svg" alt="Powered by Holochain"
-          class="h-10 sm:h-14 md:h-20 lg:h-24 xl:h-32 w-auto" />
+          class="h-5 sm:h-7 md:h-10 lg:h-12 xl:h-16 w-auto" />
         <p
           class="text-unyt-bg/40 text-xs sm:text-sm font-light mt-2 sm:mt-0 sm:absolute sm:bottom-6 sm:right-8 lg:bottom-12 lg:right-16">
           © {{ new Date().getFullYear() }} Unyt.co All rights reserved.
