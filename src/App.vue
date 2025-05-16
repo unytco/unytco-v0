@@ -27,17 +27,17 @@
       <h1 class="text-4xl sm:text-5xl md:text-6xl font-normal mb-10 sm:mb-14">Make DePIN Payments Easy</h1>
       <ul class="space-y-8 sm:space-y-10">
         <li class="flex items-center">
-          <span class="w-5 h-5 sm:w-6 sm:h-6 bg-unyt-accent rounded-sm mr-4 sm:mr-6"></span>
+          <span class="w-5 h-5 sm:w-6 sm:h-6 bg-unyt-accent rounded-sm mr-4 sm:mr-6 flex-shrink-0"></span>
           <span class="text-lg sm:text-xl"> <b>Affordable</b>: Low fees, handle more customers, quick payments </span>
         </li>
         <li class="flex items-center">
-          <span class="w-5 h-5 sm:w-6 sm:h-6 bg-unyt-accent rounded-sm mr-4 sm:mr-6"></span>
+          <span class="w-5 h-5 sm:w-6 sm:h-6 bg-unyt-accent rounded-sm mr-4 sm:mr-6 flex-shrink-0"></span>
           <span class="text-lg sm:text-xl">
             <b>Secure</b>: Payment records can't be changed because every action is locked and verified
           </span>
         </li>
         <li class="flex items-center">
-          <span class="w-5 h-5 sm:w-6 sm:h-6 bg-unyt-accent rounded-sm mr-4 sm:mr-6"></span>
+          <span class="w-5 h-5 sm:w-6 sm:h-6 bg-unyt-accent rounded-sm mr-4 sm:mr-6 flex-shrink-0"></span>
           <span class="text-lg sm:text-xl">
             <b>Independent</b>: Works directly between you and customers, but can connect to traditional systems
           </span>
