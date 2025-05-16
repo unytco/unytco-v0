@@ -4,8 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        "unyt-green": "#0EDDD3",
-        "unyt-blue": "#053185",
+        "unyt-primary-dark": "#340082",
+        "unyt-primary": "#084fa2",
+        "unyt-accent": "#02b4b3",
+        "unyt-light": "#b2d680",
+        "unyt-text": "#222",
+        "unyt-bg": "#fff",
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],

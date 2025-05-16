@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  background-color: theme("colors.unyt-blue");
+  background-color: theme("colors.unyt-primary");
   color: white;
 }
 
@@ -14,9 +14,4 @@ body {
 
 #app {
   min-height: 100vh;
-}
-
-/* Custom gradient classes */
-.gradient-background {
-  background: linear-gradient(135deg, #90f, #0f9);
 }
